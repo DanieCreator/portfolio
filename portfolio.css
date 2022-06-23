@@ -61,19 +61,21 @@ body {
 main{
     margin: 20px;
     padding: 20px;
-    display: flex;
     justify-content: center;
 }
-.home-section{
-    height: 100%;
-    width: 50%;
+.home{
+   display: flex;
+   justify-content: center;
+   align-content: center;
  
 }
 .home-photo{
     width: 50%;
     margin:20px;
-    
-  
 }
+.projects{
+    display: flex;
+    flex-flow: row;
 
+}
 
