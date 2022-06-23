@@ -1,0 +1,4 @@
+#ignore all font-awesome files
+node_modules/
+#ignore all photos
+images/
