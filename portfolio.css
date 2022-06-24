@@ -54,28 +54,67 @@ body {
     padding: 0;
     margin: 0;
     font-family: var(--sans);
-    background-color: var(--black);
+    
     color: var(--white);
     font-size: var(--font-size);
 }
-main{
-    margin: 20px;
-    padding: 20px;
-    justify-content: center;
-}
-.home{
-   display: flex;
-   justify-content: center;
-   align-content: center;
- 
-}
-.home-photo{
-    width: 50%;
-    margin:20px;
-}
-.projects{
+section{
     display: flex;
     flex-flow: row;
-
+    
+}
+.home{
+    background-color: white;
+    color: black;
+}
+.home> figure{
+    width: 50%;
+}
+.projects{
+    color: white;
+    
+  
 }
 
+.projects >figure{
+    background-color: black;
+    align-content: center;
+    text-align: center;
+    
+}
+img{
+    width: 200px;
+}
+.industries>figure{
+    background-color: #4D4C7D;
+    text-align: center;
+}
+.jumbotron> figure{
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+.jumbotron{
+    align-content: center;
+    
+}
+footer{
+    background-color: goldenrod;
+    color: #827397;
+  
+}
+section{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    justify-content: center;
+    text-decoration: none;
+
+}
+.jumbotron p{
+    align-items: center;
+    color: #4D4C7D;
+}
